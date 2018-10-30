@@ -68,10 +68,19 @@ header{
 	padding: 5px;
 }
 
+.about-me{
+	
+	text-align: center;
+}
 aside{
 	width:20%; 
 	padding:15px;
 	display: inline;
 	float: left;
 	
+}
+
+p{
+	
+	text-align: justify;
 }
