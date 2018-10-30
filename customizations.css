@@ -27,12 +27,12 @@ img{
 }
 
 
-header .nav nav{
+header nav{
 	width:100%;
 	margin: auto;
 }
 
-header .nav nav ul{
+header nav ul{
 
 	list-style:none;	
 	padding:0px;
@@ -40,11 +40,11 @@ header .nav nav ul{
 
 }
 
-header .nav nav li{
+header nav li{
 	display: inline-block;
 	width: 100px;
 }
-header .nav nav a {
+header nav a {
 	
 	display:block;
 	text-align:center;
@@ -61,13 +61,43 @@ header{
 .resume{
 	width:75%;
 	float: left;
-	border-style: dashed;
-    border-width: 2px;
-	border-color: blue;
+	
 	text-align: justify;
 	padding: 5px;
+	background-color:#e1e1d0;
+	
+	margin-bottom:25px;
 }
 
+
+.resume div h3{
+	
+	font-family: serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #808080;
+	
+}
+
+
+
+.resume div h4{
+	
+	font-family: serif;
+	font-weight: normal;
+	font-size: 0.875em;
+	color: #909090;	
+}
+
+.resume div ul{
+	
+	font-family: serif;
+	font-weight: normal;
+	font-size: 0.78125em;
+	color: black;
+	line-height:1.6;
+}
 .about-me{
 	
 	text-align: center;
