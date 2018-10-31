@@ -139,8 +139,8 @@ aside ul{
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:100%; }
-	.resume{width:80%}
-    .side-links { width:20%;}  
+	.resume{width:100%}
+    .side-links { width:100%;}  
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
