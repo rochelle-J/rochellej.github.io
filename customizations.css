@@ -114,6 +114,7 @@ aside{
 p{
 	
 	text-align: justify;
+	padding:2px;
 }
 
 aside ul{
@@ -137,9 +138,9 @@ aside ul{
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    #primary { width:85%; }
-	.resume{width:75%}
-    .side-links { width:20%; margin-left:5%;}  
+    #primary { width:100%; }
+	.resume{width:80%}
+    .side-links { width:20%;}  
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
