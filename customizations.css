@@ -37,6 +37,9 @@ header nav ul{
 	list-style:none;	
 	padding:0px;
 	text-align:center;
+	-webkit-transition: max-height:0.4s;
+	-moz-transition: max-height: 0.4s;
+	transition: max-height:0.4s;
 
 }
 
@@ -184,12 +187,6 @@ aside ul{
 		padding: 15px;
 		text-align: left;
 		
-	}
-	
-	
-	header nav div{
-		
-		display: block;
 	}
 }
 
