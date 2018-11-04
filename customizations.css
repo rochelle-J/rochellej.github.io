@@ -60,7 +60,7 @@ header{
 }
 
 .resume{
-	width:75%;
+	max-width:695px;
 	float: left;
 	
 	text-align: justify;
@@ -104,7 +104,7 @@ header{
 	text-align: center;
 }
 aside{
-	width:20%; 
+	max-width:260px; 
 	padding:15px;
 	display: inline;
 	float: left;
@@ -135,16 +135,16 @@ aside ul{
 }
 
 
+@media screen and (max-width:959px) {
+    body { width:100%; }
+	.resume{width:75%}
+    .side-links { width:20%;}  
+}
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:100%; }
-	.resume{width:100%}
-    .side-links { width:100%;}  
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
+@media screen and (max-width: 640px) {
+
     .resume {width:100%; }
-	.side-links{width:100%; margin:0; border:none;}
+	.side-links{width:100%;}
 }
+
+
